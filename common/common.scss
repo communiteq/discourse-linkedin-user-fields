@@ -1,0 +1,28 @@
+.public-user-field.linked-in-profile {
+  display: none;
+}
+
+#user-card .metadata h3 {
+  float: left;
+  color: #222222;
+  font-size: 14px;
+}
+
+#user-card .metadata h3 .user-field-name {
+  font-weight: bold;
+  clear: both;
+}
+
+.public-user-fields  {
+  clear:both;
+}
+
+.public-user-field  {
+  margin-bottom: 8px;
+}
+
+/* Hide custom fields from signup form */
+
+#discourse-modal .create-account div.modal-body div.user-fields { 
+  display: none;
+}
